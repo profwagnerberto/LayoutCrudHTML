@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de informação</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Sistema de informação</h1>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Principal</a>
+        </li>
+        <li>
+          <a href="usuarios_listar.html">Usuários</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Usuários > Lista > Incluir</h2>
+    </section>
+    <section>
+      <p>
+        <font color="red" size="2">* Campo de preenchimento obrigatório.</font>
+      </p>
+    </section>
+    <section>
+      <form action="usuarios_acao.html" method="">
+        <label for="edtId">
+          Id:<sup>*</sup>
+        </label>
+        <br>
+        <input type="number" id="edtId" min="1" max="10000" required>
+        <br>
+        <label for="edtNome">
+          Nome:<sup>*</sup>
+        </label>
+        <br>
+        <input type="text" id="edtNome" size="50" required>
+        <br>
+        <label for="edtEmail">
+          E-mail:
+        </label>
+        <br>
+        <input type="email" id="edtEmail" size="50">
+        <br>
+        <label for="edtSenha">
+          Senha:<sup>*</sup>
+        </label>
+        <br>
+        <input type="password" id="edtSenha" size="30" required>
+        <br>
+        <label for="edtConfirmar">
+          Confirmar senha:<sup>*</sup>
+        </label>
+        <br>
+        <input type="password" id="edtConfirmar" size="30" required>
+        <br><br>
+        <button>Salvar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <h5>Autor: prof. esp. Wagner L. Berto</h5>
+    <h6>Uso liberado para fins educacionais.</h6>
+  </footer>
+
+</body>
+
+</html>
